@@ -15,7 +15,7 @@ h2 {
     font-size: 40px;
 }
 
-section {
+.flexsiball-continer {
     display: flex;
     margin-bottom: 150px;
 }
@@ -47,4 +47,37 @@ section {
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.exprice-item {
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 30px;
+    border-radius: 10px;
+    border-right-color: green;
+    box-shadow: 10px 10px 50px rgb(139, 121, 121);
+}
+
+.experince-area {
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 5px;
+}
+
+#web-seddo-color {
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#border-color {
+    border-left: 8px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    color: rgba(207, 7, 7, 0.973);
 }
